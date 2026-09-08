@@ -34,12 +34,16 @@ export default function Home() {
 
           <div className="max-w-175 space-y-5 text-[15px] leading-8 text-[#444] ms:text-base">
             <p>
-              <span className="text-[18px] font-semibold text-[#6faea9]">紙媒体のデザインからWeb制作へ</span>と仕事の領域を広げ、現在は<span className="text-[18px] font-semibold text-[#6faea9]">フロントエンドエンジニアとして、Webアプリケーションの制作</span>に取り組んでいます。
+              <span className="text-[18px] font-semibold text-[#6faea9]">紙媒体のデザインからWeb制作へ</span>と仕事の領域を広げ、<br />現在は<span className="text-[18px] font-semibold text-[#6faea9]">フロントエンドエンジニアとして、Webアプリケーションの制作</span>に取り組んでいます。
             </p>
             <p>
               Web業界に入る前は、チラシやハガキなど紙媒体のデザインに携わっていました。その後、企業サイトのWebページデザインを担当するようになり、デザインだけでなくマークアップにも携わるようになりました。</p>
             <p>
-              これまでに、大手携帯キャリアのWebサイトや、株式上場企業の商品サイト・商品事例ページなど、企業向けWebサイトの制作を経験しています。JavaScriptを使用したWebサイト制作にも携わり、選択肢に応じて表示内容を切り替えるなど、ユーザーが必要な情報へスムーズにたどり着けるページの制作も行ってきました。
+              これまでに、大手携帯キャリアのWebサイトや株式上場企業の商品サイト・商品事例ページなど、
+              <span className="text-[18px] font-semibold text-[#6faea9]">企業向けWebサイトの制作を経験</span>しています。
+            </p>  
+            <p>
+              JavaScriptを使用した制作にも携わり、<span className="text-[18px] font-semibold text-[#6faea9]">選択肢に応じて表示内容を切り替え、ユーザーが必要な情報へスムーズにたどり着けるページを制作</span>してきました。
             </p>
             <p>
               現在は、これまでのWeb制作経験をベースに、React、TypeScript、Next.jsなどのフロントエンド技術を学びながら、実際にWebアプリケーションを制作しています。
@@ -136,6 +140,10 @@ export default function Home() {
               <span>Next.js</span>
               <span>/</span>
               <span>Zustand</span>
+              <span>/</span>
+              <span>Git</span>
+              <span>/</span>
+              <span>Github</span>
             </div>
 
             <p className="mt-8 text-[15px] leading-7 text-[#444]">
