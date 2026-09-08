@@ -34,6 +34,17 @@ export default function Home() {
 
           <div className="max-w-175 space-y-5 text-[15px] leading-8 text-[#444] ms:text-base">
             <p>
+              <span className="text-[18px] font-semibold text-[#6faea9]">紙媒体のデザインからWeb制作へ</span>と仕事の領域を広げ、現在は<span className="text-[18px] font-semibold text-[#6faea9]">フロントエンドエンジニアとして、Webアプリケーションの制作</span>に取り組んでいます。
+            </p>
+            <p>
+              Web業界に入る前は、チラシやハガキなど紙媒体のデザインに携わっていました。その後、企業サイトのWebページデザインを担当するようになり、デザインだけでなくマークアップにも携わるようになりました。</p>
+            <p>
+              これまでに、大手携帯キャリアのWebサイトや、株式上場企業の商品サイト・商品事例ページなど、企業向けWebサイトの制作を経験しています。JavaScriptを使用したWebサイト制作にも携わり、選択肢に応じて表示内容を切り替えるなど、ユーザーが必要な情報へスムーズにたどり着けるページの制作も行ってきました。
+            </p>
+            <p>
+              現在は、これまでのWeb制作経験をベースに、React、TypeScript、Next.jsなどのフロントエンド技術を学びながら、実際にWebアプリケーションを制作しています。
+            </p>
+            {/* <p>
               Web業界に入る前は、
               <span className="text-[18px] font-semibold text-[#6faea9]">紙のデザイン</span>
               に携わっていました。
@@ -55,7 +66,7 @@ export default function Home() {
               現在は、これまでのWeb制作経験をベースに、
               React、TypeScript、Next.jsなどのフロントエンド技術を学びながら、
               実際に<span className="text-[18px] font-semibold text-[#6faea9]">Webアプリケーションを制作</span>しています。
-            </p>
+            </p> */}
           </div>
         </section>
 
@@ -158,10 +169,10 @@ export default function Home() {
           </div>
 
           <a
-            href=""
+            href="https://github.com/tomomap/portfolio"
             className="text-xl font-medium underline decoration-[#1c45ce] decoration-1 underline-offset-8 transition-opacity hover:opacity-60"
           >
-            tomomap
+            GitHub Repository
           </a>
         </section>
 
