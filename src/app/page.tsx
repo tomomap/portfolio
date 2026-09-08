@@ -95,6 +95,8 @@ export default function Home() {
               "React",
               "Next.js",
               "Zustand",
+              "Git",
+              "Github"
             ].map((skill) => (
               <span
                 key={skill}
@@ -178,6 +180,7 @@ export default function Home() {
 
           <a
             href="https://github.com/tomomap/portfolio"
+            target="_blank"
             className="text-xl font-medium underline decoration-[#1c45ce] decoration-1 underline-offset-8 transition-opacity hover:opacity-60"
           >
             GitHub Repository
