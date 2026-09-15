@@ -27,7 +27,8 @@ export function ProjectForm () {
       <button
         type="submit"
         disabled={ isSubmitting }
-        className="ml-0 mt-2 py-1 px-5 cursor-pointer bg-rose-800 hover:bg-rose-700 rounded-2xl text-white font-black sm:ml-4 sm:mt-0"
+        className="ml-0 mt-2 py-1 px-5 cursor-pointer bg-[#4169E1] hover:bg-[#3558C7] rounded-2xl text-white font-black sm:ml-4 sm:mt-0"
+        // className="ml-0 mt-2 py-1 px-5 cursor-pointer bg-rose-800 hover:bg-rose-700 rounded-2xl text-white font-black sm:ml-4 sm:mt-0"
       >
         { isSubmitting  ? 'Adding...' : 'Add' }
       </button>

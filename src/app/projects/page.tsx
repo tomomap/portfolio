@@ -67,7 +67,7 @@ export default function ProjectsPage() {
   }
 
   return (
-    <div className="p-6 w-screen sm:w-200 mt-0 mb-0 mr-auto ml-auto">
+    <div className="p-6 w-screen sm:w-250 mt-0 mb-0 mr-auto ml-auto">
       <h1>Workstack：<br className="md:hidden"/>Projects管理ツール</h1>
 
       <ProjectForm />

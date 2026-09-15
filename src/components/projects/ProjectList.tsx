@@ -27,7 +27,7 @@ export function ProjectList({ projects }: Props) {
       <table className="result-table mt-5">
         <thead>
           <tr>
-            <th></th>
+            <th className="min-w-[150]">Name</th>
             <th>Status</th>
             <th>Change</th>
             <th>Edit</th>
@@ -44,13 +44,13 @@ export function ProjectList({ projects }: Props) {
                       value={editingName}
                       onChange={(e) => setEditingName(e.target.value)}
                     />
-                    <button className="ml-2 text-white rounded px-4 py-2 cursor-pointer bg-cyan-700 hover:bg-cyan-600"
+                    <button className="ml-0 mt-2 sm:ml-2 sm:mt-0 text-white rounded px-4 py-2 cursor-pointer bg-cyan-700 hover:bg-cyan-600"
                       onClick={async () => {
                         await updateProject(project.id, editingName);
                         setEditingId(null);
                       }}
                     >Save</button>
-                    <button className="ml-2 text-white rounded px-4 py-2 cursor-pointer bg-slate-500 hover:bg-slate-400"
+                    <button className="ml-2 mt-2 sm:mt-0 text-white rounded px-4 py-2 cursor-pointer bg-slate-500 hover:bg-slate-400"
                       onClick={() => setEditingId(null)} // 次にEditを押した時setEditingNameが上書きされるのでsetEditingIdのみ
                     >Cancel</button>
                   </>)
@@ -74,7 +74,7 @@ export function ProjectList({ projects }: Props) {
               </td>
               <td>
                 <button
-                  className="w-24  text-white rounded px-4 py-2 bg-green-700 hover:bg-green-600 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="w-24  text-white rounded px-4 py-2 bg-[#2A9D8F] hover:bg-[#60a79f] cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
                   onClick={() => {
                     setEditingId(project.id);
                     setEditingName(project.name);
@@ -86,7 +86,7 @@ export function ProjectList({ projects }: Props) {
               </td>
               <td>
                 <button
-                  className="w-24  text-white rounded px-4 py-2 bg-indigo-900 hover:bg-indigo-700 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
+                  className="w-24  text-white rounded px-4 py-2 bg-[#64748B] hover:bg-[#96a6bd] cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed"
                   onClick={() => deleteProject(project.id)}
                   disabled={isEdiging}
                 >
